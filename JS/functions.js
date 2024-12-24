@@ -1,5 +1,5 @@
 /*
- * http://love.hackerzhou.me
+ * modified by: qabil
  */
 
 // variables
@@ -42,8 +42,9 @@ $(window).resize(function() {
 					}
 
 					setTimeout(function() {
-						window.location.href = 'content.html';
-					}, 10000);
+						// window.location.href = 'content.html';
+						$("#lilian").get(0).play();
+					}, 1000);
 				}
 			}, 75);
 		});
